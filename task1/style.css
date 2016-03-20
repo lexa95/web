@@ -1,0 +1,399 @@
+body{
+	margin: 0px;
+}
+
+.page-header {
+    position: relative;
+    display: block;
+    padding: 0px;
+	margin: 0px;
+	border: 0px;
+	overflow: hidden;
+}
+	.header{
+		height: 70px;
+		width: 100%;
+		border-bottom-color: #e5e5e5;
+	}
+		.header_block{
+			display: table;
+			height: 70px;
+			width: 100%;
+			border-bottom: 1px solid rgba(0,0,0,.06);
+    		border-bottom-color: #e5e5e5;
+		}
+
+			.header_lael{
+				float: left;
+				display: table-cell;
+				height: 100%; width: 126px;
+			}
+
+				.image{
+					position: absolute;
+				    top: 17px;
+				    left: 24px;
+				    width: 82px;
+				    height: 34px;
+				}
+
+			.header_search{
+				position: relative;
+				display: table-cell;
+				width: 100%;
+				height: 100%;
+				vertical-align: top;
+			}
+
+				.header_search_block{
+					width: 100%; height: 100%;
+		    		display: table;
+				}
+					.poster{
+						display: table-cell;
+						height: 100%; width: 93px;
+						vertical-align: middle;
+						font: 17px/28px arial,helvetica,sans-serif;
+						text-align: center;
+					}
+
+					.search_field
+					{
+						display: table-cell;
+						vertical-align: middle;
+						text-align: center;
+					}
+						.search{
+							line-height: 19px;
+							width: 380px;
+							height: 28px;
+							position: relative;
+							border: 1px #CCCCCC solid;
+    						border-radius: 3px;
+						}
+
+			.header_city_entrance{
+				display: table-cell;
+				float: right;
+				height: 100%;
+				width: 267px;
+			}
+				.header_city_entrance_table{
+					display: table;
+					width: 100%; height: 100%;
+				}
+					.city{
+						display: table-cell;
+						height: 100%; width: 126px;
+						text-align: center;
+						vertical-align: middle;
+					}
+						.city_center{
+							width: 100%;
+							height: 20px;
+						}
+
+							.img_city{
+								vertical-align: middle;
+								display: inline-block;
+							}
+
+							.name_city{
+								display: inline-block;
+								font-family: Arial,sans-serif;
+								font-size: 13px;
+							}
+
+					.come-in{
+						display: table-cell;
+						text-align: center;
+						vertical-align: middle;
+						padding: 15px;
+					}
+						.come-in-center{
+							width: 100%;
+							height: 30px;
+						}
+							.inbox{
+								width: 86px;
+								height: 28px;
+    							color: #000;
+    							background: 0 0;
+							    cursor: pointer;
+								-webkit-user-select: none;
+							    padding: 0;
+							    border: 1px #CCCCCC solid;
+    							border-radius: 4px;
+    							font: 400 14px Arial,sans-serif;
+							}
+	.header_menu{
+    	width: 100%;
+    	height: 60px;
+    	margin: 0px;
+    	border-bottom: 1px solid rgba(0,0,0,.06);
+    	border-bottom-color: #e5e5e5;
+    	font-family: Arial;
+    	font-size: 16px;
+	}
+		.choise{
+			display: block; 
+			height: 100%;
+			border-bottom: 2px solid red;
+		}
+
+		.choise1{
+			display: block;
+			width: 100%;
+			height: 100%;
+    		height: 3px;
+    		background-color: red;
+		}
+
+	.page-content {
+	    position: relative;
+	    padding: 25px 30px 20px;
+	}
+		.header_text{
+			margin-top: 10px;
+			margin-bottom: 18px;
+			font: 400 28px Arial,sans-serif;
+		}
+
+		.filter{
+			height: 43px; width: 100%;
+			margin-top: -15px;
+			margin-bottom: 29px;
+		}
+
+			.left_filter{
+				display: inline-block;
+				height: 100%; width: 407px;
+				margin-right: 40px;
+			}
+				.first,
+				.second,
+				.third,
+				.fourth{
+					padding-left: 10px;
+					padding-right: 10px;
+					display: table-cell;
+					height: 28px;
+    				color: #000;
+    				background-color: #fff;
+					cursor: pointer;
+					border: 1px rgba(0,0,0,.2) solid;
+					border-left: 0px;
+    				font: 400 13px Arial,sans-serif;
+    				vertical-align: middle;
+				}
+				.first{
+					background-color: #ffeba0;
+					border-color: ;
+					border-left: 1px rgba(0,0,0,.2) solid;
+					border-top-left-radius: 3px;
+    				border-bottom-left-radius: 3px
+				}
+				.fourth{
+					border-top-right-radius: 3px;
+    				border-bottom-right-radius: 3px
+				}
+			
+			.center_filter{
+				display: inline-block;
+				height: 100%; width: 207px;
+			}
+				.center_button{
+					display: table-cell;
+					height: 28px;
+    				color: #000;
+    				background-color: #fff;
+					cursor: pointer;
+					border: 1px rgba(0,0,0,.2) solid;
+					border-radius: 4px;
+    				font: 400 13px Arial,sans-serif;
+    				vertical-align: middle;
+    				text-align: center;
+				}
+
+			.right_filter{
+				display: inline-block;
+				float: right;
+				height: 100%; width: 118px;
+			}
+				.right_button{
+					height: 28px; width: 100%;
+    				color: #000;
+    				background-color: #ffeba0;
+					cursor: pointer;
+					padding: 0;
+					border: 1px rgba(153,122,0,.5) solid;
+    				border-radius: 4px;
+    				font: 400 13px Arial,sans-serif;
+				}
+					.img_right_button{
+						width: 11px; height: 6px;
+						visibility: visible;
+						margin-top: -3px;
+					    content: '';
+					    background: url(https://yastatic.net/islands/_/Wa8X3B_Xwv3BMve2RoIxofXkmFU.svg) no-repeat;
+					}
+
+		.event-list{
+			width: 960px;
+			display: inline-block;
+		}
+			.event{
+    			width: 300px;
+    			position: relative;
+    			display: inline-block;
+    			vertical-align: top;
+			}
+
+			.event_center{
+				margin-right: 30px;
+    			margin-left: 20px;*/
+			}
+    			.type_image{
+    					z-index: 2;
+					    position: absolute;
+					    bottom: 0px;
+    					vertical-align: bottom;
+    					display: table;
+    					padding: 10px;
+    			}
+
+				.image_block{
+					z-index: 1;
+					position: absolute;
+    			 }
+
+    			 	.genre{
+    			 		display: table-cell;
+    			 		vertical-align: bottom; 
+    			 		font: 400 14px Arial,sans-serif;
+    			 		letter-spacing: 1px;
+					    font-size: 10px;
+					    font-weight: 700;
+					    line-height: 11px;
+					    color: white;
+    			 	}
+
+	.direct{
+		position: relative;
+	    display: table;
+	    width: 1350px;
+	    height: 30px;
+	}
+		.drive_left{
+			display: inline-block;
+			width: 290px;
+			height: 100px;
+			vertical-align: top;
+			padding-left: 30px;
+			padding: 10px;
+			padding-left: 20px;
+			padding-top: 0px;
+		}
+		
+
+		.drive_horizontal{
+			vertical-align: top;
+			display: table-cell;
+			width: 325px;
+			overflow: hidden;
+			padding: 5px;
+			padding-left: 20px;
+			padding-right: 0px;
+		}
+			.drive_horizontal_text{
+				display: inline-block; 
+				width: 210px; 
+				vertical-align: top;
+			}
+
+    .footer{
+    	color: #797876;
+    	font-size: 13px;
+    	background: #f3f1ed;
+    	font-family: Arial;
+    }
+    	.footer-tags{
+    		color: #4a4223;
+    		line-height: 71px;
+    		background: #f9de76;
+    		text-align: center;
+
+		}
+
+		.page-footer-menu{
+			padding: 20px 40px 30px;
+		}
+
+			.footer-menu{
+				display: inline-block;
+				width: 22%;
+				text-align: left;
+			}
+
+		.footer-info {
+			padding: 0 40px 5px;
+			line-height: 57px;
+			border-top: 1px solid #dad8d4;
+			color: #669;
+		}
+			.three-color{
+				position: relative;
+    			margin: 0 3px -2px 0
+				width: 16px;
+    			height: 12px;
+				background: url(//yastatic.net/islands/_/Dj4vhW2YN3jqIfPxTWak0eSrWok.svg) no-repeat;
+				display: inline-block;
+			}
+
+			.footer-right{
+				color: #797876;
+			}
+
+
+p b,
+p span,
+p br,
+.count_theater{
+	font: 400 14px Arial,sans-serif;
+}
+
+p b{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+p span{
+	font-size: 18px;
+}
+
+p span,
+p br{
+	color: grey;
+}
+
+.count_theater{
+	padding: 0px;
+	color: grey;
+	margin: 0px;
+	font-size: 11px;
+}
+
+.state{
+	font: 400 14px Arial,sans-serif;
+	text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 11px;
+    color: #666;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+a{
+	color: #669;
+}
